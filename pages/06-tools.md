@@ -9,6 +9,10 @@
 | Browser Harness | AI 코딩 도구가 실제 Chrome을 사용하도록 연결 | 로그인된 브라우저를 제한적으로 사용 |
 | 컴퓨터 사용 도구 | 화면 좌표·키보드·마우스 수준 제어 | 웹 밖의 데스크톱까지 다룰 때 |
 
+![도구를 고르는 질문](../assets/diagrams/chapter-06-flow.svg)
+
+*그림: 이 장의 설명을 요약한 저자 제작 도식입니다. 실제 제품 화면이 아닙니다.*
+
 ## Playwright는 ‘정확한 조종기’다
 
 Playwright는 특정 버튼·입력창을 찾고, 값을 넣고, 페이지 이동을 기다리는 규칙을 코드로 적는 도구입니다. 페이지 구조를 직접 지정하기 때문에 결과가 비교적 예측 가능하지만, 사이트가 바뀌면 코드 수정이 필요합니다. 비개발자는 전체 코드를 작성하기보다, 에이전트가 생성한 자동화가 어떤 사이트·요소·권한을 사용하는지 읽는 용도로 먼저 접하면 됩니다.
@@ -27,3 +31,9 @@ Browser Use는 “이 사이트에서 조건에 맞는 항목을 찾아 표로 �
 인기 있는 도구가 항상 나에게 맞는 도구는 아닙니다. GitHub star는 관심의 신호이고, 실제 선택은 업무 위험·지원 브라우저·데이터 보관·비용·재현성으로 결정합니다.
 
 출처: [Playwright 공식 문서](https://playwright.dev/docs/intro), [Browser Use](https://github.com/browser-use/browser-use), [Browser Harness](https://github.com/browser-use/browser-harness).
+
+## 같은 업무를 세 도구로 해 본다면
+
+매주 같은 보고서 페이지에서 공개 수치를 내려받는 일은 Playwright처럼 절차를 고정하기 쉽습니다. 사이트마다 다른 형식의 수치를 비교한다면 에이전트가 페이지를 읽고 경로를 고르는 방식이 도움이 될 수 있습니다. 데스크톱 앱까지 다뤄야 한다면 컴퓨터 사용 도구가 필요합니다.
+
+비교할 때는 “한 번 성공했는가”만 기록하지 마세요. 사이트가 바뀌었을 때의 실패, 계정 사용 범위, 사람이 고친 시간, 다운로드 파일의 정확성을 함께 적습니다. [Playwright 공식 문서](https://playwright.dev/docs/intro), [Browser Use 공식 저장소](https://github.com/browser-use/browser-use)를 확인하고 설치 방식은 실제 버전에 맞춰 선택하세요.
