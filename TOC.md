@@ -19,4 +19,6 @@
 - [16. 업무별 자동화 레시피](pages/16-recipes.md)
 - [17. 비용·속도·데이터 관리](pages/17-operations.md)
 - [18. 실제 도입 체크리스트](pages/18-adoption.md)
-- [19. AI가 읽는 웹의 미래](pages/19-outlook.md)
+- [19. 브라우저 밖의 컴퓨터 화면을 다루는 AI](pages/19-desktop-computer-use.md)
+- [20. 모바일 앱 화면을 다루는 AI](pages/20-mobile-computer-use.md)
+- [21. AI가 읽는 화면의 미래](pages/21-outlook.md)
